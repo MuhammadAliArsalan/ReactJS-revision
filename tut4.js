@@ -1,6 +1,5 @@
 /*const Tools=(props)=>{
 
-
     /*The Tools component accepts a props object as an argument.
      props.name and props.tool are destructured into local variables name and tool. 
     
