@@ -5,7 +5,9 @@ import "./tut1.js";
 import Header from './tut1.js';
 import ChangeName from './tut2.js';
 import FormHandler from './tut3.js';
-
+import Tools from './tut4.js';
+import Items from './tut5.js';
+import Information from './tut6.js';
 
 function App() {
   
@@ -30,10 +32,19 @@ function App() {
   return (
     <div style={darkMode ? darkModes:lightMode}>
       <button onClick={toggleMode}>Toggle to {darkMode ? "Light":"Dark"} Mode</button>
-      <Header />
+      <Header name="Ali Arslan"/>
     
       <ChangeName />
       <FormHandler />  
+
+      {/*Each instance passes the "name" and "tool" as props to the Tools component. */}
+      <Tools name="Ali" tool="Figma" />
+      <Tools name="Hasan" tool="NodeJS"/>
+
+      <Items />
+      <Information />
+
+      
     </div>
   );
 }

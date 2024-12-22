@@ -1,5 +1,5 @@
 // const [stateName, stateFunction]= useState(<initial_value>)
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 /*const Counter=()=>{
     const[number,setNumber]=useState(0);
     return(

@@ -1,4 +1,4 @@
-const Header=()=>{
+const Header=({name})=>{
 
     let styleOfh1={
         color:"blue",
@@ -14,7 +14,7 @@ const Header=()=>{
     return(
         <div>
             <h1 style={styleOfh1}>WELCOME TO REACT COURSE</h1>
-            <p style={styleOfp}>I will teach you react</p>
+            <p style={styleOfp}>My name is {name} & I will teach you ReactJS</p>
         </div>
     )
 }
