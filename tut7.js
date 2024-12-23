@@ -4,7 +4,7 @@ import { use, useState } from "react";
 
 const AddMarks=({addMarks})=>{
 
-    const[newMark,setNewMark]=useState("")
+    const[newMark,setNewMark]=useState("")   // Local state for new mark input
 
     const handleSubmit=(e)=>{
         e.preventDefault();
