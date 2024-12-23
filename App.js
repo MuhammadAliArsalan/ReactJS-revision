@@ -92,13 +92,7 @@ function App() {
       )
 
 }
-        
-  
       </ul>
-     
-
-      
-
     </div>
   );
 }
